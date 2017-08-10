@@ -88,7 +88,7 @@ def main():
     if not os.path.exists(SELECTED_FOLDER):
         os.mkdir(SELECTED_FOLDER)
     if not os.path.exists(REJECTED_FOLDER):
-        os.mkdir(REJECTED_FOLDEfR)
+        os.mkdir(REJECTED_FOLDER)
     files = get_files(".")
     for i, file in enumerate(files):
         _file = file.split(".")[0]
