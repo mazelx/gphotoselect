@@ -1,5 +1,5 @@
 import os
-import gpFinder
+from core.api import gpFinder
 
 SELECTED_FOLDER = "gpselected"
 REJECTED_FOLDER = "gprejected"
@@ -19,7 +19,8 @@ def main():
     for up to 10 files.
     """
 
-    dir = "/Users/mazelx/Pictures/Sources/2017/2017-07-15/"
+    #dir = "/Users/mazelx/Pictures/Sources/2017/2017-07-15/"
+    dir = "C:\\Users\\xavier.mazellier\\Downloads\\test_gpFinder"
     os.chdir(dir)
     if not os.path.exists(SELECTED_FOLDER):
         os.mkdir(SELECTED_FOLDER)

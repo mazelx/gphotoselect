@@ -1,5 +1,5 @@
 import unittest
-from gpFinder import gpFinder
+from core.api import gpFinder
 
 
 class TestGpFinder (unittest.TestCase):
